@@ -6,3 +6,38 @@
     width: 96.66666666666666%;
     color: #fff;
 }
+
+.carousel {
+    margin-top: -20px;
+}
+
+.carousel-indicators .active {
+    background: rgb(255, 0, 0);
+}
+
+.carousel-indicators li:active {
+    background: rgb(255, 0, 0);
+}
+
+.carousel-indicators li {
+    border: none;
+    background: rgb(255, 255, 255);
+}
+
+.carousel-title {
+    font-size: 5rem;
+}
+
+.carousel-title b {
+    font-size: 7rem;
+}
+
+.carousel-button {
+    background: rgb(255, 0, 0);
+    border: none;
+    font-size: 20px;
+    margin-top: 15px;
+    padding: 10px 25px;
+    border-radius: 10px;
+    font-weight: 900;
+}

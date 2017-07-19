@@ -6,6 +6,34 @@
   width: 96.66666666666666%;
   color: #fff; }
 
+.carousel {
+  margin-top: -20px; }
+
+.carousel-indicators .active {
+  background: red; }
+
+.carousel-indicators li:active {
+  background: red; }
+
+.carousel-indicators li {
+  border: none;
+  background: white; }
+
+.carousel-title {
+  font-size: 5rem; }
+
+.carousel-title b {
+  font-size: 7rem; }
+
+.carousel-button {
+  background: red;
+  border: none;
+  font-size: 20px;
+  margin-top: 15px;
+  padding: 10px 25px;
+  border-radius: 10px;
+  font-weight: 900; }
+
 .banner {
   background-image: url(../images/truck7.jpg); }
 
@@ -73,4 +101,42 @@ body {
     z-index: 100; }
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
     background: #646464;
-    color: white; } }
+    color: white; }
+  .carousel-title {
+    font-size: 2.5rem; }
+  .carousel-title b {
+    font-size: 4rem; } }
+
+@media (max-width: 400px) {
+  .navbar-default .navbar-nav > li:hover > a:after {
+    content: "";
+    height: 0;
+    width: 0;
+    border-left: 0px solid transparent;
+    border-right: 0px solid transparent;
+    border-bottom: 0px solid red;
+    position: absolute;
+    bottom: -1px;
+    left: 50%;
+    margin: 0 0 0 -3px;
+    z-index: 100; }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
+    background: #646464;
+    color: white; }
+  .carousel-title {
+    font-size: 1.5rem; }
+  .carousel-title b {
+    font-size: 3rem; } }
+
+.descripcion {
+  margin-top: 50px; }
+
+.thumbnail {
+  border: none; }
+
+.thumbnail img {
+  padding-bottom: 20px; }
+
+.thumbnail p {
+  text-align: center;
+  font-weight: 300; }
