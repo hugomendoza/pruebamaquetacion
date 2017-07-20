@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .header-text {
   position: absolute;
   top: 20%;
@@ -28,14 +29,39 @@
 .carousel-button {
   background: red;
   border: none;
-  font-size: 20px;
-  margin-top: 15px;
+  font-size: 3rem;
+  margin-top: 5%;
   padding: 10px 25px;
   border-radius: 10px;
   font-weight: 900; }
 
 .banner {
-  background-image: url(../images/truck7.jpg); }
+  background-image: url(../images/truck7.jpg);
+  background-position: bottom;
+  padding: 60px; }
+
+.title-banner {
+  margin-top: 0%;
+  color: white;
+  font-weight: 300;
+  font-size: 2.5rem; }
+
+.title-banner b {
+  font-size: 4rem; }
+
+hr {
+  width: 35%;
+  border: 2px solid red; }
+
+.button-banner {
+  background: red;
+  border: none;
+  margin-top: 2%;
+  font-size: 1.5rem;
+  padding: 8px 30px;
+  border-radius: 10px;
+  font-weight: 900;
+  color: white; }
 
 body {
   font-family: 'Roboto', sans-serif; }
@@ -102,10 +128,41 @@ body {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
     background: #646464;
     color: white; }
+  .header-text {
+    position: absolute;
+    top: 15%;
+    left: 1.8%;
+    right: auto;
+    width: 96.66666666666666%;
+    color: #fff; }
   .carousel-title {
-    font-size: 2.5rem; }
+    font-size: 2rem; }
   .carousel-title b {
-    font-size: 4rem; } }
+    font-size: 2.5rem; }
+  .carousel-button {
+    background: red;
+    border: none;
+    font-size: 1.5rem;
+    margin-top: 10px;
+    padding: 8px 20px;
+    border-radius: 10px;
+    font-weight: 900; }
+  .title-banner {
+    font-weight: 300;
+    font-size: 1.5rem; }
+  .title-banner b {
+    font-size: 2.5rem; }
+  hr {
+    width: 40%;
+    border: 1.5px solid red; }
+  .button-banner {
+    font-size: 1rem;
+    padding: 5px 25px;
+    border-radius: 4px; }
+  .notes {
+    text-align: center; }
+  .down-app {
+    text-align: center; } }
 
 @media (max-width: 400px) {
   .navbar-default .navbar-nav > li:hover > a:after {
@@ -123,10 +180,37 @@ body {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
     background: #646464;
     color: white; }
+  .header-text {
+    position: absolute;
+    top: 10%;
+    left: 1.8%;
+    right: auto;
+    width: 96.66666666666666%;
+    color: #fff; }
   .carousel-title {
-    font-size: 1.5rem; }
+    font-size: 1rem; }
   .carousel-title b {
-    font-size: 3rem; } }
+    font-size: 1.5rem; }
+  .carousel-button {
+    background: red;
+    border: none;
+    font-size: .8rem;
+    margin-top: 5px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-weight: 900; }
+  .title-banner {
+    font-weight: 300;
+    font-size: 1rem; }
+  .title-banner b {
+    font-size: 1.5rem; }
+  hr {
+    width: 40%;
+    border: 1px solid red; }
+  .button-banner {
+    font-size: 1rem;
+    padding: 5px 25px;
+    border-radius: 4px; } }
 
 .descripcion {
   margin-top: 50px; }
@@ -140,3 +224,50 @@ body {
 .thumbnail p {
   text-align: center;
   font-weight: 300; }
+
+.app-download {
+  margin-top: 20px; }
+
+.app-download .row {
+  margin-top: 30px; }
+
+.app-title {
+  font-weight: 900;
+  font-size: 3.5rem; }
+
+.divider {
+  width: 35%;
+  border-top: 4px solid red;
+  margin: auto; }
+
+.app-text {
+  margin-top: 15px;
+  font-weight: 500; }
+
+.notes {
+  margin-top: 30px; }
+
+.notes-app {
+  font-weight: 900;
+  list-style: none;
+  font-size: 2rem;
+  line-height: 3rem; }
+
+.notes-app::before {
+  content: "• ";
+  color: red;
+  font-weight: 900;
+  margin-left: -.5em; }
+
+.notes-app p {
+  font-weight: 300;
+  font-size: 1.5rem;
+  line-height: 2.5rem; }
+
+.down-app img {
+  margin-top: 10px;
+  height: 40px;
+  margin-left: 5%; }
+
+.app-img img {
+  width: 75%; }

@@ -1,0 +1,56 @@
+.app-download {
+	margin-top: 20px;
+}
+
+.app-download .row {
+	margin-top: 30px;
+}
+.app-title {
+	font-weight: 900;
+	font-size: 3.5rem;
+}
+
+.divider {
+	width: 35%;
+	border-top: 4px solid rgb(255, 0, 0);
+	margin: auto;
+}
+
+.app-text {
+	margin-top: 15px;
+	font-weight: 500;
+}
+
+.notes {
+	margin-top: 30px
+}
+
+.notes-app {
+	font-weight: 900;
+	list-style: none;
+	font-size: 2rem;
+	line-height: 3rem;
+}
+
+.notes-app::before {
+  content: "• ";
+  color: red;
+  font-weight: 900;
+  margin-left: -.5em;
+}
+
+.notes-app p {
+	font-weight: 300;
+	font-size: 1.5rem;
+	line-height: 2.5rem;
+}
+
+.down-app img {
+	margin-top: 10px;
+	height: 40px;
+	margin-left: 5%;
+}
+
+.app-img img {
+	width: 75%;
+}
