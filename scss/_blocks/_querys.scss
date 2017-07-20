@@ -84,10 +84,16 @@
 
     .footer {
         text-align: center;
+        margin-top: 30px;
+    }
+
+    .footer-data {
+        text-align: left;
     }
 
     .social-media {
         margin-top: 0px;
+        text-align: right;
     }
 
     .footer-media {
@@ -100,6 +106,7 @@
         line-height: 33px;
         border-radius: 30px;
         color: rgb(0, 0, 0);
+        margin-top: 10px;
     }
 }
 
@@ -168,6 +175,10 @@
         font-size: 1rem;
         padding: 5px 25px;
         border-radius: 4px;
+    }
+
+    .social-media a {
+        display: inline-block;
     }
 
     .social-media {
