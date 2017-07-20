@@ -162,7 +162,26 @@ body {
   .notes {
     text-align: center; }
   .down-app {
-    text-align: center; } }
+    text-align: center; }
+  .app-title {
+    font-weight: 900;
+    font-size: 2.5rem; }
+  .app-text {
+    font-size: 1.4rem; }
+  .footer {
+    text-align: center; }
+  .social-media {
+    margin-top: 0px; }
+  .footer-media {
+    width: 30px;
+    padding: 20 0px;
+    background: white;
+    height: 30px;
+    display: inline-block;
+    text-align: center;
+    line-height: 33px;
+    border-radius: 30px;
+    color: black; } }
 
 @media (max-width: 400px) {
   .navbar-default .navbar-nav > li:hover > a:after {
@@ -210,7 +229,9 @@ body {
   .button-banner {
     font-size: 1rem;
     padding: 5px 25px;
-    border-radius: 4px; } }
+    border-radius: 4px; }
+  .social-media {
+    margin-top: 0px; } }
 
 .descripcion {
   margin-top: 50px; }
@@ -235,7 +256,7 @@ body {
   font-weight: 900;
   font-size: 3.5rem; }
 
-.divider {
+.divide {
   width: 35%;
   border-top: 4px solid red;
   margin: auto; }
@@ -271,3 +292,47 @@ body {
 
 .app-img img {
   width: 75%; }
+
+.footer {
+  background: black;
+  padding: 20px;
+  color: white; }
+
+.footer-title {
+  font-weight: 300; }
+
+.footer-text {
+  font-weight: 300;
+  font-size: 1.2rem; }
+
+.terminos {
+  margin-top: 30px; }
+
+.data-company {
+  margin-left: 60px; }
+
+.footer-data {
+  border-left: 2px solid white; }
+
+.data-footer {
+  font-weight: 300;
+  margin-top: 10px;
+  line-height: 1.2rem; }
+
+.social-media {
+  margin-top: -30px; }
+
+.footer-media {
+  width: 30px;
+  padding: 20 0px;
+  background: white;
+  height: 30px;
+  display: block;
+  text-align: center;
+  line-height: 33px;
+  border-radius: 30px;
+  color: black; }
+
+.footer-media:hover {
+  background-color: #e0e804;
+  color: black; }

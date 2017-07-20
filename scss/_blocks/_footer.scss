@@ -1,0 +1,53 @@
+.footer {
+    background: rgb(0, 0, 0);
+    padding: 20px;
+    color: white;
+}
+
+.footer-title {
+    font-weight: 300;
+}
+
+.footer-text {
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+.terminos {
+    margin-top: 30px;
+}
+
+.data-company {
+    margin-left: 60px;
+}
+
+.footer-data {
+    border-left: 2px solid rgb(255, 255, 255);
+}
+
+.data-footer {
+    font-weight: 300;
+    margin-top: 10px;
+    line-height: 1.2rem;
+}
+
+.social-media {
+    margin-top: -30px;
+}
+
+.footer-media {
+    width: 30px;
+    padding: 20 0px;
+    background: rgb(255, 255, 255);
+    height: 30px;
+    display: block;
+    text-align: center;
+    line-height: 33px;
+    border-radius: 30px;
+    color: rgb(0, 0, 0);
+}
+
+.footer-media:hover {
+    background-color: rgb(224, 232, 4);
+    color: rgb(0, 0, 0);
+}

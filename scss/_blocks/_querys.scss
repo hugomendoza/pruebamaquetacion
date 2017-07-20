@@ -72,6 +72,35 @@
     .down-app {
         text-align: center;
     }
+
+    .app-title {
+    	font-weight: 900;
+    	font-size: 2.5rem;
+    }
+
+    .app-text {
+        font-size: 1.4rem;
+    }
+
+    .footer {
+        text-align: center;
+    }
+
+    .social-media {
+        margin-top: 0px;
+    }
+
+    .footer-media {
+        width: 30px;
+        padding: 20 0px;
+        background: rgb(255, 255, 255);
+        height: 30px;
+        display: inline-block;
+        text-align: center;
+        line-height: 33px;
+        border-radius: 30px;
+        color: rgb(0, 0, 0);
+    }
 }
 
 @media (max-width: 400px) {
@@ -139,5 +168,9 @@
         font-size: 1rem;
         padding: 5px 25px;
         border-radius: 4px;
+    }
+
+    .social-media {
+        margin-top: 0px;
     }
 }
