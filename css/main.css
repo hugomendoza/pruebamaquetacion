@@ -278,8 +278,12 @@ body {
   .footer-data {
     text-align: left; }
   .social-media {
-    margin-top: 0px;
-    text-align: right; }
+    text-align: center;
+    margin-top: 0px; }
+  .social-media br {
+    display: none; }
+  .footer-media {
+    margin-left: 10px; }
   .footer-media {
     width: 30px;
     padding: 20 0px;

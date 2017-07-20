@@ -92,8 +92,16 @@
     }
 
     .social-media {
+        text-align: center;
         margin-top: 0px;
-        text-align: right;
+    }
+
+    .social-media  br {
+        display: none;
+    }
+
+    .footer-media {
+        margin-left: 10px;
     }
 
     .footer-media {
