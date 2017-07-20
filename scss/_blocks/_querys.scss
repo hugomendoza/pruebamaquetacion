@@ -177,11 +177,16 @@
         border-radius: 4px;
     }
 
-    .social-media a {
-        display: inline-block;
+    .social-media {
+        text-align: center;
+        margin-top: 0px;
     }
 
-    .social-media {
-        margin-top: 0px;
+    .social-media  br {
+        display: none;
+    }
+
+    .footer-media {
+        margin-left: 10px;
     }
 }

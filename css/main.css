@@ -339,7 +339,10 @@ body {
     font-size: 1rem;
     padding: 5px 25px;
     border-radius: 4px; }
-  .social-media a {
-    display: inline-block; }
   .social-media {
-    margin-top: 0px; } }
+    text-align: center;
+    margin-top: 0px; }
+  .social-media br {
+    display: none; }
+  .footer-media {
+    margin-left: 10px; } }
